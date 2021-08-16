@@ -1,0 +1,23 @@
+@media screen and (max-width: 576px) {
+  .credits, .social{
+    text-align: center;
+    padding: 5px;
+  }
+  .card-height{
+    height: 410px;
+  }
+  .work-margin{
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width:992px) and (min-width:576px) {
+  .card-height{
+    height: 480px;
+  }
+
+}
+@media screen and (max-width:767px) and (min-width:576px) {
+  .work-margin{
+    margin-top: 30px;
+  }
+}

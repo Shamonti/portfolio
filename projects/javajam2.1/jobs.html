@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+	<title>Home - JavaJam Coffee House</title>
+	<script type="text/javascript" src="myscript.js"></script>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="javajam.css">
+	<style type="text/css">
+	label { float: left;display: block; width: 100px;}
+	</style>
+</head>
+<body>
+	<div id = "wrapper">
+		<header></header>
+
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li> 
+				<li><a href="menu.html">Menu</a></li>  
+				<li><a href="music.html">Music</a></li> 
+				<li><a href="jobs.html">Jobs</a></li> 
+			</ul>
+		</nav>
+	<div id="content">
+		<h2>Jobs at JavaJam</h2>
+		<p> Required fields are marked with an asterisk *</p>
+		<form action="show_get.php" method="get">
+		
+		<label for="name">*Name:</label>
+		<input type="text" name="name" id="name" required><br><br>
+		
+		<label for="email">*Email:</label>
+		<input type="email" name="email" id="email" required><br><br>
+		
+		<label for="date">Start Date:</label>
+		<input type="date" name="date" id="date"><br><br>
+		
+		<label for="ex">*Experience:</label>
+		<textarea type="textarea" name="ex" id="ex" rows="3" cols="20" required>
+		</textarea><br><br>
+		<input type="submit" value="Apply Now!"> &nbsp; 
+		<input type="reset" value="Reset" >
+		</form>
+
+	</div>
+	<footer>
+		<small>
+		<i>Copyright &copy; 2014 JavaJam Coffee House<br>
+		<a href="mailto:asdfg@dfd.com">Asgdsgd.com</a></i>
+		</small>
+	</footer>
+	</div>
+	<script type = "text/javascript"  src = "myscriptr.js" ></script>
+</body>
+</html>

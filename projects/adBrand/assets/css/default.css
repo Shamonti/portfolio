@@ -1,0 +1,451 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #101010;
+	color: #FDFEFF;
+}
+h2{
+	font-family: 'Exo 2', sans-serif;
+	font-size: 2.5rem;
+	font-weight: 500;
+	letter-spacing: 0.14rem;
+	margin-bottom: 20px;
+}
+p{
+	font-size: 1.5rem;
+	line-height: 2.125rem;
+}
+.section-wrapper{
+	padding-top: 90px;
+	padding-bottom: 75px;
+}
+
+/* background */
+.background{
+	background: url("../images/banner.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+/* navbar */
+.navbar-light .navbar-toggler-icon {
+	background-image: url(../images/menu1.jpg);
+	outline: none;
+}
+nav button:focus {
+	outline: 1px dotted;
+	outline: none;
+}
+nav .navbar-nav .nav-link{
+	font-size: 1rem;
+	line-height: 26px;
+	color: #FDFEFF !important;
+	padding-right: 2rem !important;
+	padding-left: 2rem !important;
+
+	position: relative !important;
+  padding-bottom: 2px !important;
+  text-decoration: none !important;
+
+}
+nav .navbar-nav #RU {
+	color: #DBC49B !important;
+	margin-left: 5.5rem;
+	margin-right: -5rem;
+}
+/* navbar-hover */
+nav .navbar-nav .nav-link:hover::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  height: 1px;
+	width: 100%;
+  background: #DBC49B !important;
+  background: linear-gradient(to right, transparent 0%,#DBC49B 50%,transparent 100%) !important;
+}
+nav .navbar-nav .nav-link:hover{
+	color: #DBC49B !important;
+}
+/* Banner-Text */
+.active-text{
+	font-family: 'Exo 2', sans-serif;
+	font-size: 4rem;
+	font-weight: 700;
+	letter-spacing: 0.14rem;
+	margin-left: 7.8rem;
+}
+.hover-text{
+	font-family: 'Exo 2', sans-serif;
+	font-size: 4rem;
+	font-weight: 700;
+	letter-spacing: 0.14rem;
+	color: #101010;
+  text-shadow:
+    -1px -1px 0 #EBEBEB,  
+    1px -1px 0 #EBEBEB,
+    -1px 1px 0 #EBEBEB,
+    1px 1px 0 #EBEBEB;
+}
+.create{
+	font-size: 4.9rem;
+	font-weight: 800;
+	letter-spacing: 0rem;
+	color: #101010;
+  text-shadow:
+    -1px -1px 0 #4B4B4B,  
+    1px -1px 0 #4B4B4B,
+    -1px 1px 0 #4B4B4B,
+		1px 1px 0 #4B4B4B;
+	position: absolute;
+	top: -1.8rem;
+	left: 13rem;
+	z-index: -1;
+}
+.banner .text-box{
+	padding-top: 7.2%;
+	margin-left: 220px;
+}
+h5{
+	font-size: 20px;
+	line-height: 28px;
+}
+.arrow{
+	padding-top: 10%;
+}
+.rectangle{
+	border: 1px solid #FDFEFF;
+	height: 276px;
+	z-index: -2;
+}
+.about-margin{
+	margin-left: 40px;
+}
+#hand{
+	width: 98%;
+	border: 36px solid #101010;
+	position: absolute;
+	left: -110px;
+	top: 80px;
+	z-index: -1;
+}
+.hover-text2{
+	font-family: 'Exo 2', sans-serif;
+	font-size: 4rem;
+	font-weight: 700;
+	letter-spacing: 0.14rem;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 1px #FDFEFF;
+	margin-left: 39%;
+}
+
+#about-three-text {
+  display: none;
+  transition: all 0.5s ease;
+}
+#about-one-text {
+  display: none;
+  transition: all 0.5s ease;
+}
+/* Our Services */
+.services {
+  margin-top: 18%;
+}
+.ssm-des,
+.cs-des,
+.pd-des {
+  display: none;
+  font-size: 24px;
+}
+#pd-des p, #cs-des p{
+  margin-bottom: 0.5rem !important;
+}
+.services .heading {
+  background: -webkit-linear-gradient(#dbc49b, #ba9261);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#pd-service,
+#ssm-service,
+#cs-service {
+  font-family: 'Exo 2', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  transition: 0.5s;   
+}
+
+.service-hover-text {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 0.14rem;
+  color: #101010;
+  text-shadow: -1px -1px 0 #4b4b4b, 1px -1px 0 #4b4b4b, -1px 1px 0 #4b4b4b,
+    1px 1px 0 #4b4b4b;
+  position: absolute;
+  left: 328px;
+  margin-top: 22px;
+  z-index: -1;
+}
+.service-bg {
+  background: url('../images/services.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.services .text-box {
+  padding-top: 8%;
+  margin-left: 0px;
+  padding-bottom: 75px;
+  vertical-align: middle;
+}
+.services .right-box {
+  vertical-align: middle;
+  margin-left: 40px;
+}
+.services .hover-text {
+  font-size: 2.5rem;
+}
+/* portfolio */
+.portfolio .heading {
+  background: -webkit-linear-gradient(#dbc49b, #ba9261);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.portfolio .sub-heading {
+  margin-left: 85px;
+  margin-top: 35px;
+}
+
+.portfolio .card {
+  background: transparent !important;
+}
+.portfolio .card-body {
+  padding: 0px;
+  padding-left: 5px;
+}
+
+/* extra code  */
+
+.second-card {
+  margin-left: 193px;
+  margin-top: 69px;
+}
+.home-card {
+  margin-left: 95px;
+  margin-top: 186px;
+}
+.mobile-card {
+  margin-left: 315px;
+  margin-top: 115px;
+}
+
+.play-button {
+  height: 69px;
+  width: 69px;
+  text-align: center;
+  line-height: 65px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-left: 43px;
+  cursor: pointer;
+}
+.play-button2 {
+  height: 69px;
+  width: 69px;
+  text-align: center;
+  line-height: 65px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-left: 43px;
+  cursor: pointer;
+  position: relative;
+  top: 45%;
+  left: 45%;
+}
+.play-button2 img {
+  height: 9px;
+  width: 6px;
+}
+
+.play-button img {
+  height: 9px;
+  width: 6px;
+}
+
+.ship-card {
+  position: relative;
+}
+.hover-overlay {
+  position: absolute;
+  top: 169px;
+  left: 70px;
+  display: none;
+  z-index: 111;
+}
+.hover-overlay span {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 34px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fdfeff;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+/* display blur */
+.blur-position {
+  position: relative;
+}
+.ship-card-hover {
+  z-index: 110;
+}
+.display-blur {
+  display: none;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+  z-index: 100;
+  height: 1300px;
+  width: 116%;
+  position: absolute;
+  top: -212px;
+  left: -100px;
+}
+/* .section-wrapper {
+  z-index: 99;
+} */
+.display-blur-text {
+  width: 491px;
+  position: relative;
+
+  top: 206px;
+  left: 475px;
+}
+
+/* modal  */
+
+.modal-body {
+  height: 553px !important;
+  background: #c1c1c1 !important;
+}
+.close {
+  font-family: 'Montserrat', sans-serif; 
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 24px !important;
+  line-height: 34px !important;
+  /* or 142% */
+
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+  color: #ffffff !important;
+}
+
+
+/* work */
+.work .heading, .work .hover-text{
+	font-size: 2.25rem;
+	font-weight: 600;
+	letter-spacing: 0rem;
+	line-height: 34px;
+	padding-left: 20px;
+}
+.work .hover-text{
+	text-shadow:
+	-1px -1px 0 #9F9F9F,  
+	1px -1px 0 #9F9F9F,
+	-1px 1px 0 #9F9F9F,
+	1px 1px 0 #9F9F9F;
+}
+.work .hand1{
+	position: absolute;
+	top: -180px;
+  left: 155px;
+}
+.work p{
+	font-size: 18px;
+	line-height: 34px;
+}
+.work .text-box{
+	margin-top: 220px;
+}
+
+/* contact */
+.contact-bg{
+	background: url(../images/contact.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.contact hr{
+	height: 1px;
+	width: 100%;
+  background: #DBC49B !important;
+	background: linear-gradient(to right, transparent 0%,#DBC49B 60%,transparent 100%) !important;
+}
+.contact .hover-text{
+	text-shadow:
+	-1px -1px 0 #9F9F9F,  
+	1px -1px 0 #9F9F9F,
+	-1px 1px 0 #9F9F9F,
+	1px 1px 0 #9F9F9F;
+	font-size: 3rem;
+}
+.contact .text-box{
+	color: #9F9F9F;
+}
+.contact .color{
+	color: #DBC49B;
+}
+
+.form-control {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 34px;
+	background-color: transparent;
+	border: 1px solid transparent;
+	border-bottom: 1px solid #9F9F9F !important;
+	padding: 4.5rem .75rem 1.5rem !important;
+	color: #9F9F9F;
+	border-radius: 0;
+}
+.custom-file-control{
+	cursor: pointer;
+}
+#project{
+	padding-bottom: 3.6rem !important;
+}
+.form-control:focus {
+	color: #495057;
+	background-color: transparent;
+	border-color: transparent;
+	outline: 0;
+	box-shadow: none;
+}
+.contact .file-text{
+	font-size: 20px;
+}
+.contact .btn-default{
+	font-family: 'Exo 2', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 600;
+	letter-spacing: 0.14rem;
+	line-height: 34px;
+	color: #FDFEFF;
+	padding-top: 10%;
+	padding-left: 20%;
+}
+.contact .btn.focus, .btn:focus {
+	box-shadow: none;
+}
+
+/* footer */
+.copyright{
+	color: #9F9F9F;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 25px;
+}

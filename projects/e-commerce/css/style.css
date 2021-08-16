@@ -1,0 +1,118 @@
+
+.navbar{
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+	color: #fa2742;
+}
+
+.card{
+	border: none !important;
+}
+
+.card:hover{
+	box-shadow: 1px 8px 13px 0px #BABABA;
+}
+
+/*button, input {
+	overflow: visible;
+	border: none !important;
+	background-color: #eeeeee;
+	border-radius: 5px;
+}*/
+
+form .form-control, .input-group-text{
+	background-color: #eeeeee;
+	border: none;
+}
+
+/*.form-control:focus {
+	color: #495057;
+	background-color: #eeeeee !important;
+	border-color: #80bdff;
+	outline: 0;
+	box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);
+}*/
+
+.fb-margin{
+	    margin-left: 710px;
+}
+.banner{/*
+	height: 500px;*/
+	background:  linear-gradient(to right, rgba(238,238,238,0.9),rgba(250,250,250,0.1)), url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 2%;
+	padding-bottom: 10%;
+}
+/*
+.banner::before {
+	content: "";
+	position: absolute;
+	top: 33%;
+	right: 0px;
+	bottom: -81%;
+	left: 0px;
+	background-color: rgba(255, 254, 254, 0.5);
+}
+*/
+.banner h1{
+	color: #fa2742;
+}
+
+.text-div{
+	padding-top: 12%;
+}
+
+div.orange {
+	width: 60px;
+	height: 56px;
+	background-color: #fa2742;
+	-ms-transform: rotate(20deg);
+	transform: rotate(-30deg);
+	position: relative;
+}
+div.orange-light {
+	width: 45px;
+	height: 69px;
+	background-color: #fa2742;
+	opacity: 45%;
+	-ms-transform: rotate(20deg);
+	transform: rotate(-30deg);
+	position: absolute;
+	top: 9px;
+	left: 23px;
+}
+
+.sale-pos {
+	transform: rotate(30deg);
+}
+.second-card{
+	padding-top: 10%;
+}
+
+.footer{
+	padding-top: 0%;
+	padding-bottom: 3%;
+	background-color: #eeeeee;
+}
+.form-control:focus {
+	color: #495057;
+	background-color: #EEEEEE;
+	border-color: #EEEEEE;
+	box-shadow: none;
+}
+.input-group-text{
+	padding: 0px;
+}
+.btn.focus, .btn:focus {
+	outline: 0;
+	box-shadow: 0 0 0 .2rem #EEEEEE;
+}
+button:focus {
+	outline: none;
+	outline: none;
+}
+

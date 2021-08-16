@@ -1,0 +1,437 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #333;
+  color: #fff;
+  min-height: 100vh;
+  margin: 0;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+}
+a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.center {
+  margin-top: 2.5px;
+}
+
+.center a {
+  color: #fff;
+}
+
+
+#logo {
+  display: none;
+}
+
+
+#canvas {
+  background: #fff;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* links in pink circles */
+.pink2 {
+  width: 26px;
+  height: 26px;
+  background-color: #C01E5C;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 57px;
+  left: 491px;
+}
+
+.pink4 {
+  width: 26px;
+  height: 26px;
+  background-color: #C01E5C;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 150px;
+  left: 566px;
+}
+
+.pink6 {
+  width: 26px;
+  height: 26px;
+  background-color: #C01E5C;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 147px;
+  left: 415px;
+}
+
+/* text around pink circle */
+.pink2text {
+  font-size: 8.8px;
+  color: #707171;
+  position: absolute;
+  top: 58px;
+  left: 523px;
+}
+
+.pink4text {
+  font-size: 8.8px;
+  color: #707171;
+  position: absolute;
+  top: 158px;
+  left: 595px;
+}
+
+.pink6text {
+  font-size: 8.8px;
+  color: #707171;
+  position: absolute;
+  top: 148px;
+  left: 362px;
+}
+
+/* links in brown circles */
+.brown1 {
+  width: 26px;
+  height: 26px;
+  background-color: #715046;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 230px;
+  left: 660px;
+}
+
+.brown2 {
+  width: 26px;
+  height: 26px;
+  background-color: #715046;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 208px;
+  left: 755px;
+}
+
+.brown6 {
+  width: 26px;
+  height: 26px;
+  background-color: #715046;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 276px;
+  left: 792px;
+}
+
+.brown {
+  width: 26px;
+  height: 26px;
+  background-color: #715046;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 335px;
+  left: 728px;
+}
+
+/* text around brown circle */
+.brown1text {
+  font-size: 8.8px;
+  color: #707171;
+  position: absolute;
+  top: 236px;
+  left: 573px;
+}
+
+.brown2text {
+  font-size: 8.8px;
+  color: #707171;
+  position: absolute;
+  top: 205px;
+  left: 785px;
+}
+
+.brown6text {
+  font-size: 8.8px;
+  color: #707171;
+  position: absolute;
+  top: 284px;
+  left: 822px;
+}
+
+.browntext {
+  font-size: 8.8px;
+  color: #707171;
+  position: absolute;
+  top: 351px;
+  left: 756px;
+}
+
+/* links in blue circles */
+.blue2 {
+  width: 26px;
+  height: 26px;
+  background-color: #15499D;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 433px;
+  left: 722px;
+}
+
+.blue {
+  width: 26px;
+  height: 26px;
+  background-color: #15499D;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 496px;
+  left: 762px;
+}
+
+.blue6 {
+  width: 26px;
+  height: 26px;
+  background-color: #15499D;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 553px;
+  left: 742px;
+}
+
+.blue3 {
+  width: 26px;
+  height: 26px;
+  background-color: #15499D;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 573px;
+  left: 691px;
+}
+
+.blue1 {
+  width: 26px;
+  height: 26px;
+  background-color: #15499D;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 530px;
+  left: 630px;
+}
+
+/* text around blue circle */
+.blue2text {
+  font-size: 8.8px;
+  color: #707171;
+  position: absolute;
+  top: 440px;
+  left: 750px;
+}
+
+.bluetext {
+  font-size: 8.8px;
+  color: #707171;
+  position: absolute;
+  top: 500px;
+  left: 792px;
+}
+
+.blue6text {
+  font-size: 8.8px;
+  color: #707171;
+  position: absolute;
+  top: 560px;
+  left: 772px;
+}
+
+.blue3text {
+  font-size: 8.8px;
+  color: #707171;
+  position: absolute;
+  top: 602px;
+  left: 650px;
+}
+
+.blue1text {
+  font-size: 8.8px;
+  color: #707171;
+  position: absolute;
+  top: 539px;
+  left: 590px;
+}
+
+/* links in yellow circles */
+.yellow2 {
+  width: 26px;
+  height: 26px;
+  background-color: #FAD701;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 450px;
+  left: 280px;
+}
+
+.yellow6 {
+  width: 26px;
+  height: 26px;
+  background-color: #FAD701;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 539px;
+  left: 245px;
+}
+
+.yellow3 {
+  width: 26px;
+  height: 26px;
+  background-color: #FAD701;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 563px;
+  left: 384px;
+}
+
+.yellow4 {
+  width: 26px;
+  height: 26px;
+  background-color: #FAD701;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 500px;
+  left: 390px;
+}
+
+/* text around yellow circle */
+.yellow2text {
+  font-size: 8.8px;
+  color: #707171;
+  position: absolute;
+  top: 455px;
+  left: 199px;
+}
+
+.yellow6text {
+  font-size: 8.8px;
+  color: #707171;
+  position: absolute;
+  top: 544px;
+  left: 185px;
+}
+
+.yellow3text {
+  font-size: 8.8px;
+  color: #707171;
+  position: absolute;
+  top: 572px;
+  left: 414px;
+}
+
+.yellow4text {
+  font-size: 8.8px;
+  color: #707171;
+  position: absolute;
+  top: 505px;
+  left: 420px;
+}
+
+/* links in red circles */
+.red1 {
+  width: 26px;
+  height: 26px;
+  background-color: #C43C27;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 306px;
+  left: 221px;
+}
+
+.red6 {
+  width: 26px;
+  height: 26px;
+  background-color: #C43C27;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 255px;
+  left: 130px;
+}
+
+.red2 {
+  width: 26px;
+  height: 26px;
+  background-color: #C43C27;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 165px;
+  left: 172px;
+}
+
+.red4 {
+  width: 26px;
+  height: 26px;
+  background-color: #C43C27;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 180px;
+  left: 258px;
+}
+
+/* text around red circle */
+.red1text {
+  font-size: 8.8px;
+  color: #707171;
+  position: absolute;
+  top: 311px;
+  left: 251px;
+}
+
+.red6text {
+  font-size: 8.8px;
+  color: #707171;
+  position: absolute;
+  top: 260px;
+  left: 90px;
+}
+
+.red2text {
+  font-size: 8.8px;
+  color: #707171;
+  position: absolute;
+  top: 170px;
+  left: 67px;
+}
+
+.red4text {
+  font-size: 8.8px;
+  color: #707171;
+  position: absolute;
+  top: 188px;
+  left: 286px;
+}

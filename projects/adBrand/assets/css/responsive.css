@@ -1,0 +1,438 @@
+@media only screen and (max-width: 575px){
+  /*Mobile Phones*/
+  .section-wrapper{
+    padding-top: 40px;
+    padding-bottom: 35px;
+  }
+  .background .section-wrapper{
+    margin-top: -60px;
+  }
+  p{
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  nav .navbar-nav #RU {
+  margin-left: 0px;
+  }
+  /* Banner-Text */
+.banner br{
+  display: none;
+}
+.active-text{
+	font-size: 1.5rem;
+	letter-spacing: 0rem;
+  margin-left: 3.8rem;
+  line-height: 30px;
+}
+.hover-text{
+	font-size: 1.5rem;
+	letter-spacing: 0.14rem;
+}
+.create{
+	font-size: 1.4rem;
+	letter-spacing: 0rem;
+	position: absolute;
+	top: -0.5rem;
+	left: 6.5rem;
+}
+.banner .text-box{
+	padding-top: 1.2%;
+  margin-left: 100px;
+  width: 55%;
+}
+h5{
+	font-size: 0.8rem;
+	line-height: 1rem;
+}
+/* about */
+.about #about_one_img, #about_two_img, #about_three_img{
+  width: 68%;
+}
+.about .about-margin {
+  margin-left: -14px;
+}
+.about .active-text {
+  margin-left: -1.2rem;
+}
+.about #about_one_img{
+  margin-bottom: 30px;
+}
+.about .hover-text2 {
+  margin-left: -14px;
+}
+#hand{
+	width: 100%;
+	border: 36px solid #101010;
+	position: absolute;
+	left: -110px;
+	top: 60px;
+	z-index: -1;
+}
+.rectangle{
+	border: 1px solid #FDFEFF;
+	height: 180px;
+	z-index: -2;
+}
+/* work */
+.work .heading, .work .hover-text{
+	font-size: 1.2rem;
+	font-weight: 600;
+	letter-spacing: 0rem;
+	line-height: 34px;
+	padding-left: 15px;
+}
+.work .hand1{
+	position: absolute;
+	top: -120px;
+  left: 65px;
+  width: 65%;
+}
+.work .text-box {
+  margin-top: 140px;
+}
+.work p {
+  font-size: 1rem;
+  line-height: 20px;
+}
+/* service */
+  .services .text-box {
+    padding-top: 2%;
+}
+.services .active-text{
+  font-size: 2rem !important;
+}
+  .service-hover-text {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.14rem;
+    position: absolute;
+    left: 120px;
+    margin-top: 5px;
+    z-index: -1;
+  }
+  #ssm-service, #cs-service, #pd-service{
+    font-size: 1.2rem;
+    line-height: 20px;
+  }
+.service-bg {
+    background-size: contain;
+  }
+  .services .hover-text{
+    font-size: 1.2rem;
+  }
+  .services .right-box {
+    vertical-align: middle;
+    margin-left: 40px;
+    padding-top: 30px;
+}
+#ssm-des{
+  font-size: 1.2rem;
+}
+/* portfolio */
+.portfolio .active-text{
+  font-size: 2rem !important;
+}
+.portfolio .service-hover-text {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.14rem;
+  position: absolute;
+  left: 110px;
+  margin-top: 5px;
+  z-index: -1;
+}
+.mobile-card{
+  margin-left: 0px;
+}
+.second-card {
+  margin-left: 130px;
+  margin-top: 69px;
+}
+.display-blur-text {
+  width: 300px;
+  position: relative;
+  top: 600px;
+  left: 125px;
+}
+.display-blur {
+  display: none;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+  z-index: 100;
+  height: 1300px;
+  width: 146%;
+  position: absolute;
+  top: -212px;
+  left: -100px;
+}
+/* contact */
+.contact .hover-text {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: -15px;
+}
+.form-control {
+  font-size: 1rem;
+  padding: 1rem .75rem 0.8rem !important;
+}
+#project{
+	padding-bottom: 1.5rem !important;
+}
+.contact .ml-5,.contact .ml-4{
+  margin-left: 8px!important;
+}
+.contact .file-text{
+	font-size: 1rem;
+}
+.contact .btn-default{
+  font-size: 1rem;
+  padding-top: 0px;
+}
+.contact-bg {
+  background-size: contain;
+}
+.contact .active-text{
+  font-size: 2rem;
+  margin-bottom: 0px;
+}
+.custom-file-input {
+height: 0px;
+}
+.custom-file-control img{
+  margin-left: 10px;
+  margin-top: -10px;
+}
+
+/* footer */
+footer nav .navbar-nav .nav-link {
+  display: none;
+}
+footer nav .navbar-nav #RU {
+	color: #DBC49B !important;
+	margin-left: 0.5rem;
+	margin-right: 0rem;
+}
+footer .navbar-toggler-icon{
+  display: none;
+}
+footer .share{
+  display: none;
+}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991px){
+  /*Tablets*/
+  nav .navbar-nav #RU {
+    margin-left: 0px;
+  }
+  .section-wrapper{
+    padding-top: 40px;
+    padding-bottom: 25px;
+  }
+  .background .section-wrapper{
+    padding-top: 10px;
+  }
+  p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+/* Banner-Text */
+.banner br{
+  display: none;
+}
+.active-text{
+	font-size: 2.5rem;
+	letter-spacing: 0rem;
+  margin-left: 7.8rem;
+  line-height: 45px;
+}
+.hover-text{
+	font-size: 2.5rem;
+	letter-spacing: 0.14rem;
+}
+.create{
+	font-size: 2.4rem;
+	letter-spacing: 0rem;
+	position: absolute;
+	top: -0.5rem;
+	left: 11.5rem;
+}
+.banner .text-box{
+	padding-top: 7.2%;
+	margin-left: 160px;
+}
+h5{
+	font-size: 1rem;
+	line-height: 20px;
+}
+/* about */
+.about #about_one_img, #about_two_img, #about_three_img{
+  width: 85%;
+}
+.about .about-margin {
+  margin-left: 0px;
+}
+.about .active-text {
+  margin-left: 1.2rem;
+}
+.about #about_one_img{
+  margin-bottom: 30px;
+}
+.about .hover-text2 {
+  margin-left: 22%;
+}
+/* services */
+.services .text-box {
+  padding-top: 5%;
+}
+.service-hover-text {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.14rem;
+  position: absolute;
+  left: 220px;
+  margin-top: 10px;
+  z-index: -1;
+}
+.services .hover-text {
+  font-size: 1.5rem;
+}
+#ssm-service, #cs-service, #pd-service{
+  font-size: 1.5rem;
+}
+.service-bg {
+  background-size: contain;
+}
+.services br{
+  display: none;
+}
+.ssm-des, .cs-des, .pd-des {
+  font-size: 16px;
+}
+/* work */
+.work .heading, .work .hover-text{
+	font-size: 1.75rem;
+	font-weight: 600;
+	letter-spacing: 0rem;
+	line-height: 34px;
+	padding-left: 15px;
+}
+.work .hand1{
+	position: absolute;
+	top: -180px;
+  left: 75px;
+}
+
+
+/* contact */
+.contact .hover-text {
+  font-size: 2rem;
+}
+.form-control {
+  font-size: 1rem;
+  padding: 3.5rem .75rem 1rem !important;
+}
+#project{
+	padding-bottom: 2.2rem !important;
+}
+.contact .ml-5,.contact .ml-4{
+  margin-left: 8px!important;
+}
+.contact .file-text{
+	font-size: 1rem;
+}
+.contact .btn-default{
+  font-size: 1rem;
+}
+.contact-bg {
+  background-size: contain;
+}
+
+
+/* footer */
+footer nav .navbar-nav .nav-link {
+  padding-right: 1rem !important;
+  padding-left: 0rem !important;
+}
+footer nav .navbar-nav #RU {
+	color: #DBC49B !important;
+	margin-left: 0.5rem;
+	margin-right: 0rem;
+}
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+  /*Laptops*/
+  .section-wrapper{
+    padding-top: 70px;
+    padding-bottom: 55px;
+  }
+  .active-text{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.14rem;
+    margin-left: 7.8rem;
+  }
+  .hover-text{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.14rem;
+  }
+  .create{
+    font-size: 3.9rem;
+    font-weight: 800;
+    letter-spacing: 0rem;
+    position: absolute;
+    top: -1.5rem;
+    left: 12rem;
+  }
+  p{
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  /* banner */
+  .banner .text-box{
+    padding-top: 2.2%;
+    margin-left: 220px;
+  }
+  /* about */
+  .about .active-text {
+    margin-left: 5.5rem;
+  }
+  .about .pl-5, .px-5 {
+    padding-left: 3.6rem!important;
+}
+
+  /* service */
+.services .text-box {
+    padding-top: 5%;
+}
+  .service-hover-text {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.14rem;
+    position: absolute;
+    left: 250px;
+    margin-top: 15px;
+    z-index: -1;
+  }
+  #ssm-service, #cs-service, #pd-service{
+    font-size: 1.8rem;
+  }
+.service-bg {
+    background-size: contain;
+  }
+  /* portfolio */
+  .mobile-card {
+    margin-left: 224px;
+  }
+  /* work */
+  .work .text-box{
+    margin-left: 10%;
+  }
+  /* contact */
+  .contact .ml-5{
+      margin-left: 1rem!important;
+  }
+}

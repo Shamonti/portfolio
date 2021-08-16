@@ -1,0 +1,47 @@
+
+@media only screen and (max-width: 575px){
+  /*Mobile Phones*/
+  .bg-color .btn-default{
+    width: 60%;
+  }
+  .gallery-a{
+    margin-left: 40px !important;
+    margin-right: 40px;
+  }
+  .contact .btn-default {
+	width: 30%;
+}
+}
+
+@media only screen and (max-width: 768px){
+
+  .footer .privacy-text{
+    display: none;
+  }
+  .accordion{
+    margin-top: 50px;
+  }
+  .gallery-a{
+    margin-left: 20%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  /*Tablets*/
+  .bg-color .btn-default{
+    width: 68%;
+  }
+  .pricing .grey-card .btn-default{
+    width: 62%;
+  }
+  .pricing .colorful-card .btn-default{
+    width: 62%;
+  }
+  .gallery-a{
+    margin-left: 28% !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+  .gallery-a{
+    margin-left: 15% !important;
+  }
+}

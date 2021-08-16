@@ -1,0 +1,476 @@
+.section-wrapper {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  /* overflow: hidden; */
+}
+
+/* NAVBAR */
+.navbar {
+  animate__bounceInDown
+}
+
+.bg-default {
+  background-color: #24292e;
+}
+
+nav .navbar{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+.nav-item.active a{
+	text-decoration: underline !important;
+}
+
+.navbar-brand {
+  font-size: 32px;
+}
+
+/* First Background  */
+.bg-color {
+  padding-top: 90px;
+  background-color: #24292e;
+}
+
+.bg-color .btn-default {
+  background: #50a1ff;
+  width: 48%;
+  height: 80px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 18px;
+}
+
+.list {
+  list-style: none;
+  padding-left: 5px !important;
+  padding-right: 5px;
+}
+
+.gtext {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.play-image {
+  height: 60px;
+}
+
+/* about */
+.text-color {
+  color: #3cd458;
+}
+
+.bg-color2 {
+  background-color: #F3F4F5;
+}
+
+.hr-style {
+  width: 6%;
+  background-color: #3cd458;
+  height: 1.5px;
+}
+
+.bg-color2 .card {
+  border: none !important;
+}
+
+.bg-color2 .card:hover .circle {
+  animation: pulse;
+  animation-duration: 1.5s;
+}
+
+.bg-color2 .circle {
+  border: 1px solid #3cd458;
+  background-color: #3cd458;
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  display: flex;
+  align-items: center;
+}
+
+.bg-color2 .circle i {
+  margin: auto;
+}
+
+.bg-color2 .card-header {
+  padding: .75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #fff;
+  border-bottom: none;
+}
+
+.bg-color2 .card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  padding-top: 0px !important;
+}
+
+/* Features */
+.features .row-1:hover .entrance-animate1 {
+  animation: slideInLeft;
+  animation-duration: 2s;
+}
+
+.features .row-2:hover .entrance-animate2 {
+  animation: slideInRight;
+  animation-duration: 2s;
+}
+
+.features .row-3:hover .entrance-animate3 {
+  animation: slideInLeft;
+  animation-duration: 2s;
+}
+
+/* Pricing */
+.pricing {
+  /* height: 900px; */
+  background-color: #F3F4F5;
+}
+
+.pricing .colorful-card .card-header {
+  padding-top: 50px;
+  padding-bottom: 35px;
+  color: #fff;
+  border-bottom-right-radius: 22% !important;
+  border-bottom-left-radius: 22% !important;
+  background: linear-gradient(to right, #11998e, #38ef7d) !important;
+  overflow: hidden;
+}
+
+.pricing .colorful-card .card {
+  height: 448px !important;
+  -webkit-box-shadow: 0px 10px 14px -1px rgba(181, 179, 181, 1);
+  -moz-box-shadow: 0px 10px 14px -1px rgba(181, 179, 181, 1);
+  box-shadow: 0px 10px 14px -1px rgba(181, 179, 181, 1);
+}
+
+.pricing .card-body li {
+  font-weight: 500;
+  font-size: 20px;
+  color: #757575;
+}
+
+.pricing .colorful-card .btn-default {
+  background: linear-gradient(to right, #11998e, #38ef7d) !important;
+  border-radius: 50px;
+  height: 41px;
+  width: 56%;
+  font-size: 19px;
+}
+
+.pricing .btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.pricing .grey-card .card {
+  height: 418px !important;
+  -webkit-box-shadow: 0px 10px 14px -1px rgba(181, 179, 181, 1);
+  -moz-box-shadow: 0px 10px 14px -1px rgba(181, 179, 181, 1);
+  box-shadow: 0px 10px 14px -1px rgba(181, 179, 181, 1);
+}
+
+.pricing .grey-card .card-header {
+  padding-top: 50px;
+  padding-bottom: 35px;
+  color: #212529;
+  border-bottom-right-radius: 22% !important;
+  border-bottom-left-radius: 22% !important;
+  background: linear-gradient(to right, #fff, #fff) !important;
+  overflow: hidden;
+}
+
+.pricing .grey-card .btn-default {
+  background: linear-gradient(to right, #085078, #85d8ce) !important;
+  border-radius: 50px;
+  height: 41px;
+  width: 56%;
+  font-size: 19px;
+}
+
+/* Download/counter */
+.counter {
+  font-weight: 500;
+  font-size: 58px;
+  color: #50a1ff;
+}
+
+/* get started */
+.started {
+  /* height: 500px; */
+  background-color: #F3F4F5;
+}
+
+.started .btn-default {
+  background: #50a1ff;
+  border-radius: 50px;
+  height: 40px;
+  width: 115%;
+  font-size: 19px;
+}
+
+.started .btn:hover {
+  color: #fff;
+  background: #3cd458;
+  text-decoration: none;
+}
+
+/* All button - without focus */
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+/* footer */
+.footer {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  background-color: #929daf;
+}
+
+/* owl */
+.ui-device-slider {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.ui-device-slider .device img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.ui-device-slider .screens {
+  position: absolute;
+  width: 231px;
+  top: 12.5%;
+  left: 11.5%;
+  right: 11.5%;
+  bottom: 14%;
+}
+
+.ui-device-slider .screens .item {
+  width: 231px;
+}
+
+.ui-device-slider .screens .item img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  background-color: #FFF;
+}
+
+.section .row>div .ui-device-slider .device img {
+  float: none;
+}
+
+.ui-device-slider .owl-theme .owl-dots .owl-dot {
+  margin-top: 5rem;
+}
+
+/* Accordion*/
+.accordion>.card>.card-header {
+  border-radius: 0;
+  margin-bottom: 15px;
+  background-color: #50a1ff;
+  color: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 10px 4px rgba(156, 202, 255, 1);
+  -moz-box-shadow: 0px 0px 10px 4px rgba(156, 202, 255, 1);
+  box-shadow: 0px 0px 10px 4px rgba(156, 202, 255, 1);
+  cursor: pointer;
+}
+
+.accordion>.card {
+  border: none;
+}
+
+/* gallery */
+.gallery-a {
+  overflow: hidden;
+  position: relative;
+  left: 3px;
+  list-style: none;
+  width: 100%;
+  /* margin: 0 auto 58px; */
+	margin-left: 5%;
+  padding: 0;
+  line-height: 1.2;
+}
+
+.gallery-a li {
+  position: relative;
+  float: left;
+  width: 328px;
+  margin: 0 6px 6px 0;
+  font-size: 30px;
+}
+
+.gallery-a li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  border: 1px solid #efefef;
+}
+
+.gallery-a li a {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  color: #fff;
+}
+
+.gallery-a li a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0;
+}
+
+.gallery-a li a:hover:before {
+  opacity: .8;
+}
+
+.lt-ie9 .gallery-a li a:before {
+  top: -3000em;
+}
+
+.lt-ie9 .gallery-a li a:hover:before {
+  top: 0;
+}
+
+.gallery-a li a>span {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -200px;
+  right: 0;
+  z-index: 2;
+  padding: 0 34px 39px;
+}
+
+.gallery-a li a:hover>span, .gallery-a li.plain a>span {
+  bottom: 0;
+}
+
+.gallery-a li a .strong {
+  display: block;
+}
+
+.gallery-a li a .date {
+  display: block;
+  position: relative;
+  margin: 15px 0 0;
+  padding: 15px 0 0;
+  font-size: .708em;
+}
+
+.gallery-a li a .date:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 59px;
+  height: 3px;
+  background: #fff;
+}
+
+.gallery-a li.plain, .gallery-a li.plain a {
+  min-height: 311px;
+  color: #444;
+}
+
+.gallery-a li.plain a .date:before {
+  background: #000;
+}
+
+.gallery-a li.plain a:hover {
+  color: #fff;
+}
+
+#root .gallery-a li.plain a:hover .date:before {
+  background: #fff;
+}
+
+.gallery-a .bx-pager, .gallery-b .bx-pager {
+  display: block;
+  padding: 22px 0 0;
+  text-align: center;
+}
+/* contact form*/
+.contact .btn-default {
+  background: #50a1ff;
+  border-radius: 50px;
+  height: 40px;
+  width: 20%;
+  font-size: 19px;
+	margin-left: 40% !important;
+}
+
+.contact .btn:hover {
+  color: #fff;
+  background: #3cd458;
+  text-decoration: none;
+}
+/* Preloader */
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */
+}
+
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+  background-image: url(images/813.gif);
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+  /* is width and height divided by two */
+}
+.btn-bg-dark{
+  padding: 5px 0px;
+}

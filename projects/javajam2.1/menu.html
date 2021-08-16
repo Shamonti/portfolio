@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+	<title>Home - JavaJam Coffee House</title>
+	<meta charset="utf-8">
+	<script type = "text/javascript"  src ="calculation.js" ></script>
+	<link rel="stylesheet" type="text/css" href="javajam.css">
+	<style type="text/css">
+	tr:nth-of-type(odd) {background-color:#cca965;}
+	td,th {padding: 5px;}
+	table {width: 600px; margin:auto; border-style:none;}
+	</style>
+</head>
+<body>
+	<div id = "wrapper">
+	<header></header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li> 
+				<li><a href="menu.html">Menu</a></li>  
+				<li><a href="music.html">Music</a></li> 
+				<li><a href="jobs.html">Jobs</a></li> 
+			</ul>
+		</nav>
+	<div id="content">
+	<form action="show_get" method="get">
+		<h2> Coffee at JavaJam</h2>
+		<table border="0">
+			<!-- added css and element -->
+			<tbody style="float: right; margin-right: -120px;"> 
+			<!-- added css and element -->
+		<tr>    <td><strong>Just Java</strong></td> 
+				<td>Regular house blend, decaffeinated coffee, or flavor of the day.<br>
+					Endless Cup $2.00
+					<!-- <br><br>
+					<label for="name">Regular:</label>
+					<input type="text" name="justjava" id="jjreg"> -->
+				</td>
+				<!-- added column element -->
+				<td class="text-box">
+					<input type="text" name="justjava" id="jjreg">
+				</td>
+				<td class="text-box">
+					$<span id="jjreg1_result">0.00</span>
+				</td>
+				<!-- added column element -->
+		</tr>
+		<tr>    <td><strong>Cafe au Lait</strong></td>
+				<td>House blended coffee infused into a smooth, steamed milk.<br>
+					Single $2.00 Double $3.00
+					<br><br>
+					<label for="name">Single:</label>
+					<input type="text" name="cals" id="cals">
+					<br>
+					<label for="name">Double:</label>
+					<input type="text" name="cald" id="cald">
+					</td>
+					<!-- added column element -->
+					<td class="text-box">
+						<input type="text" name="cald" id="cald">
+					</td>
+					<td class="text-box">
+						$<span id="">0.00</span>
+					</td>
+					<!-- added column element -->
+		</tr> 
+		<tr>    <td><strong>Iced Cappuccino</strong></td>
+				<td>Sweetened espresso blended with icy-cold milk and served in a chilled glass.<br>
+					Single $4.75 Double $5.75	
+					<br><br>
+					<label for="name">Single:</label>
+					<input type="text" name="caps" id="caps">
+					<br>
+					<label for="name">Double:</label>
+					<input type="text" name="capd" id="capd">
+					</td>
+					<!-- added column element -->
+					<td class="text-box">
+						<input type="text" name="" id="">
+					</td>
+					<td class="text-box">
+						$<span id="">0.00</span>
+					</td>
+					<!-- added column element -->
+		</tr>
+		<tr>	<td></td>
+				<td><input style="float:right" type="button" onclick="Calculate()" value="Calculate"/></td>
+		</tr>
+	</tbody>
+		</table>
+		</form>
+		<strong><h3>Your Order:</h3></strong>
+		Just Java(R) x <span id="jjreg1">0</span><br>
+		Cafe au Lait(S) x <span id="cals1">0</span><br>
+		Cafe au Lait(D) x <span id="cald1">0</span><br>
+		Iced Cappuccino(S) x <span id="caps1">0</span><br>
+		Iced Cappuccino(D) x <span id="capd1">0</span><br><br>
+		
+		<!-- <strong>Total: $<span id="result">0.00</span></strong> -->
+	</div>
+	<footer>
+		<small>
+		<i>Copyright &copy; 2014 JavaJam Coffee House<br>
+		<a href="mailto:sfdh@fhjgfj.com">Asdfgh.com</a></i>
+		</small>
+		<div>
+			<h1 style="float: right; margin-right: 130px; margin-top: -25px;">Total Price</h1>
+			<div class="text-box" style="float: right;">$<span id="result">0.00</span></div>
+		</div>
+	</footer>
+	</div>
+	<script type = "text/javascript"  src = "calculationr.js" ></script>
+</body>
+</html>
