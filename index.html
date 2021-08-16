@@ -393,18 +393,22 @@
           data-wow-duration="1s">
           <form name="contact" method="POST" data-netlify="true">
             <div class="form-group">
-              <input type="text" name="name" class="form-control" id="exampleInputEmail1" placeholder="Name">
+              <input type="text" name="name" class="form-control" placeholder="Name" required>
             </div>
             <div class="form-group">
               <input type="text" name="subject" class="form-control" placeholder="Subject">
             </div>
             <div class="form-group">
               <input type="email" name="email" class="form-control" placeholder="Enter Email">
-            </div>            
-            <div class="form-group">
-              <input name="myfile" type="file" class="form-control" id="myfile" rows="5"
-                placeholder="Upload File"></inp>
+            </div>           
+
+            <div class="form-group" style="height: 38px;">
+              <div class="upload-btn-wrapper">
+                <button class="btn" id="file">Upload a file</button>
+                <input type="file" name="myfile" id="myfile" />
+              </div>
             </div>
+            
             <div class="form-group">
               <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="5"
                 placeholder="Your Message"></textarea>
@@ -491,6 +495,15 @@
       });
     });
   </script>
+
+<script>
+  $('#myfile').on('change',function(){
+      //get the file name
+      var fileName = $(this).val();
+      //replace the "Choose a file" label
+      $(this).next('.fileName').html(fileName);
+  })
+</script>
 
 </body>
 
