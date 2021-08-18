@@ -250,7 +250,8 @@ button:focus {
   padding: 0px;
   border-radius: 30px;
   box-shadow: 1px 1px 1.5px 1px rgba(0,0,0,0.075);
-  height: 229px;
+  min-height: 229px !important;
+  min-width: 338px !important;
 }
 .card-hover{
   position: absolute;
