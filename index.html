@@ -125,7 +125,7 @@
       id="carouselExampleIndicators"
       class="carousel slide carousel-fade"
       data-ride="carousel"
-      data-interval="3000"
+      data-interval="10000"
     >
       <div class="carousel-inner">
         <div
@@ -139,7 +139,7 @@
           "
         >
           <div class="carousel-caption d-block">
-            <h2 class="title-text my-auto">
+            <h2 class="title-text my-auto" id="banner_text">
               Hi, I'm <span style="color: #ff1d58">Shamonti Haque</span>. <br />
               I am a web designer <br />and front-end developer.
             </h2>
@@ -1036,6 +1036,18 @@
             );
         });
       });
+    </script>
+
+    <!-- TypeIt CDN-->
+    <script src="https://unpkg.com/typeit@8.0.7/dist/index.umd.js"></script>
+
+    <!--TypeIt JS-->
+    <script>
+      new TypeIt('#banner_text', {
+        strings: '',
+        speed: 75,
+        loop: true,
+      }).go();
     </script>
 
     <!-- <script>
