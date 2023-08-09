@@ -283,11 +283,14 @@ button:focus {
 
 /* ===============isotope filtering ====================*/
 /* ---- button ---- */
+.button-group {
+  margin-bottom: 30px;
+}
+
 .filter-button {
   font-size: 18px;
   text-align: center;
   color: #4b5156;
-  margin-bottom: 30px;
 }
 
 .filter-button:hover {
@@ -370,6 +373,7 @@ button:focus {
   border-radius: 30px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  text-align: center;
   /* box-shadow: 1px 1px 1.5px 1px rgba(0, 0, 0, 0.075); */
   /* min-height: 229px !important;
   min-width: 338px !important; */
