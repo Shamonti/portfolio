@@ -1,0 +1,3 @@
+[submodule "projects/calculator-react"] 
+  path = projects/calculator-react
+  url = git://https://github.com/Shamonti/calculator-react
