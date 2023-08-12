@@ -211,7 +211,7 @@
             </h2>
           </div>
         </div>
-        <div class="row">
+        <div class="row align-items-center">
           <div
             class="col-md-6 col-sm-12 wow animate__animated animate__backInLeft"
             data-wow-duration="1s"
@@ -234,7 +234,7 @@
             </div>
           </div>
           <div
-            class="col-md-6 col-sm-12 p-4 wow animate__animated animate__backInRight pt-5 pt-md-4"
+            class="col-md-6 col-sm-12 p-4 wow animate__animated animate__backInRight pt-5 pt-md-4 align-items-center"
             data-wow-duration="1s"
           >
             <h3 class="progress-title">HTML5</h3>
@@ -247,7 +247,7 @@
                 <div class="progress-value"><span>95</span>%</div>
               </div>
             </div>
-            <h3 class="progress-title">CSS3</h3>
+            <!-- <h3 class="progress-title">CSS3</h3>
             <div class="progress-outer">
               <div class="progress">
                 <div
@@ -256,9 +256,9 @@
                 ></div>
                 <div class="progress-value"><span>80</span>%</div>
               </div>
-            </div>
+            </div> -->
 
-            <h3 class="progress-title">Sass</h3>
+            <!-- <h3 class="progress-title">Sass</h3>
             <div class="progress-outer">
               <div class="progress">
                 <div
@@ -267,18 +267,8 @@
                 ></div>
                 <div class="progress-value"><span>80</span>%</div>
               </div>
-            </div>
+            </div> -->
 
-            <h3 class="progress-title">Wordpress</h3>
-            <div class="progress-outer">
-              <div class="progress">
-                <div
-                  class="progress-bar progress-bar-striped progress-bar-info"
-                  style="width: 75%"
-                ></div>
-                <div class="progress-value"><span>75</span>%</div>
-              </div>
-            </div>
             <h3 class="progress-title">Bootstrap</h3>
             <div class="progress-outer">
               <div class="progress">
@@ -298,6 +288,28 @@
                   style="width: 70%"
                 ></div>
                 <div class="progress-value"><span>70</span>%</div>
+              </div>
+            </div>
+
+            <h3 class="progress-title">Wordpress</h3>
+            <div class="progress-outer">
+              <div class="progress">
+                <div
+                  class="progress-bar progress-bar-striped progress-bar-info"
+                  style="width: 75%"
+                ></div>
+                <div class="progress-value"><span>75</span>%</div>
+              </div>
+            </div>
+
+            <h3 class="progress-title">ReactJS</h3>
+            <div class="progress-outer">
+              <div class="progress">
+                <div
+                  class="progress-bar progress-bar-striped progress-bar-info"
+                  style="width: 50%"
+                ></div>
+                <div class="progress-value"><span>50</span>%</div>
               </div>
             </div>
           </div>
@@ -325,21 +337,28 @@
                 class="btn btn-default is-checked filter-button"
                 data-filter="*"
               >
-                All
+                Show All
               </button>
               <button
                 type="button"
                 class="btn btn-default filter-button"
                 data-filter=".HTML"
               >
-                Design to HTML
+                Design to HTML5
               </button>
               <button
                 type="button"
                 class="btn btn-default filter-button"
-                data-filter=".websites"
+                data-filter=".js"
               >
-                Websites
+                JavaScript
+              </button>
+              <button
+                type="button"
+                class="btn btn-default filter-button"
+                data-filter=".reactjs"
+              >
+                ReactJS
               </button>
               <button
                 type="button"
@@ -356,28 +375,29 @@
         <div class="grid">
           <div class="row">
             <div
-              class="col-md-4 element-item HTML px-4"
+              class="col-md-4 element-item px-4 reactjs"
               data-category="transition"
             >
               <div class="card">
                 <div class="card-body">
                   <img
-                    src="images/img_6.png"
+                    src="images/img_8.png"
                     alt=""
                     class="img-fluid card-img"
                   />
                   <div class="card-hover">
-                    <h3>Landing Page</h3>
-                    <p style="color: #e31b6d">ILLUSTRATOR to HTML</p>
+                    <h3>Calculator</h3>
+                    <p style="color: #e31b6d">ReactJS Calculator</p>
                     <div>
                       <a
                         class="example-image-link btn btn-default"
-                        href="images/img_6_large.png"
+                        href="images/img_8.png"
                         data-lightbox="card"
-                        >View
-                      </a>
+                        >View</a
+                      >
                       <a
-                        href="projects/adBrand/index.html"
+                        href="https://shamonti.github.io/calculator-react/"
+                        target="_blank"
                         class="btn btn-default"
                         >Demo</a
                       >
@@ -451,7 +471,10 @@
               </div>
             </div>
 
-            <div class="col-md-4 element-item px-4" data-category="transition">
+            <div
+              class="col-md-4 element-item px-4 js"
+              data-category="transition"
+            >
               <div class="card">
                 <div class="card-body">
                   <img
@@ -471,6 +494,38 @@
                       >
                       <a
                         href="projects/guess-my-number-game/index.html"
+                        class="btn btn-default"
+                        >Demo</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-md-4 element-item HTML px-4"
+              data-category="transition"
+            >
+              <div class="card">
+                <div class="card-body">
+                  <img
+                    src="images/img_6.png"
+                    alt=""
+                    class="img-fluid card-img"
+                  />
+                  <div class="card-hover">
+                    <h3>Landing Page</h3>
+                    <p style="color: #e31b6d">ILLUSTRATOR to HTML</p>
+                    <div>
+                      <a
+                        class="example-image-link btn btn-default"
+                        href="images/img_6_large.png"
+                        data-lightbox="card"
+                        >View
+                      </a>
+                      <a
+                        href="projects/adBrand/index.html"
                         class="btn btn-default"
                         >Demo</a
                       >
@@ -512,7 +567,10 @@
               </div>
             </div>
 
-            <div class="col-md-4 element-item px-4" data-category="transition">
+            <div
+              class="col-md-4 element-item px-4 js"
+              data-category="transition"
+            >
               <div class="card">
                 <div class="card-body">
                   <img
@@ -700,6 +758,7 @@
                 </div>
               </div>
             </div>
+
             <div
               class="col-md-4 element-item HTML px-4"
               data-category="transition"
@@ -731,6 +790,7 @@
                 </div>
               </div>
             </div>
+
             <div
               class="col-md-4 element-item HTML px-4"
               data-category="transition"
@@ -762,6 +822,7 @@
                 </div>
               </div>
             </div>
+
             <div
               class="col-md-4 element-item HTML px-4"
               data-category="transition"
@@ -793,6 +854,7 @@
                 </div>
               </div>
             </div>
+
             <div
               class="col-md-4 element-item HTML px-4"
               data-category="transition"
@@ -824,6 +886,7 @@
                 </div>
               </div>
             </div>
+
             <div
               class="col-md-4 element-item email px-4"
               data-category="transition"
