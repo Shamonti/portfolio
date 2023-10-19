@@ -221,6 +221,29 @@ button:focus {
   );
 }
 
+/* -------------------------------skill box */
+.skill-box {
+  display: flex;
+  align-items: center;
+  margin: 0.75rem;
+}
+
+.skill-logo {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 0.5rem;
+}
+.skill-logo img {
+  height: 100%;
+  width: 100%;
+}
+
+.skill-title {
+  line-height: 1;
+  margin: 0;
+  margin-top: 0.15rem;
+}
+
 /* -------------------------------progress bar */
 .progress-title {
   font-size: 1.2rem;
