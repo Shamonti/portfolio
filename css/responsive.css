@@ -113,7 +113,7 @@
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
   .card-body {
-    height: 170px !important;
+    height: 125px !important;
   }
 
   .card-body h3 {
@@ -121,7 +121,13 @@
     margin-bottom: 2px;
   }
 
+  .card-body .btn {
+    padding: 0.1rem 0.3rem;
+    font-size: 0.75rem;
+  }
+
   .card-body p {
     font-size: 1rem;
+    margin-bottom: 0.5rem;
   }
 }
